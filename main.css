@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(bb.jpg);
+}
+.div{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    text-align: center;
+    text-transform: uppercase;
+    direction: rtl;
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+    display: block;
+    padding: 30px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover{
+    color: blueviolet;
+}
+.div1{
+    background: rgba(68, 65, 65, 0.5);
+    text-align: center;
+    width: 400px;
+    height: 370px;
+    position: relative;
+    top: 150px;
+    align-self: center;
+}
+h3{
+    position: relative;
+    font-size: 35px;
+    color: white;
+    top: 10px;
+}
+input{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.email{
+    position: relative;
+    top: 30px;
+}
+.email input{
+    width: 250px;
+    height: 40px;
+}
+.password{
+    position: relative;
+    top: 50px;
+}
+.password input{
+    width: 250px;
+    height: 40px;
+}
+.checkbox{
+    position: relative;
+    top: 60px;
+    right: 75px;
+    color: white;
+}
+button{
+    font-weight: bold;
+    position: relative;
+    top: 85px;
+    width: 180px;
+    height: 42px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background: rgb(71, 107, 226);
+}
+.for{
+    position: relative;
+    top: 120px;
+    color: white;
+}
+.p{
+    position: relative;
+    bottom: 10px;
+}
